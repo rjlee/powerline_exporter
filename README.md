@@ -36,7 +36,8 @@ Due to the requirement to listen on an interface for powerline traffic, this is 
 git clone 
 cp powerline.conf.example powerline.conf
 # Edit config as needed
-./powerline_exporter
+cp powerline-exporter.init /etc/init.d/powerline-exporter
+/etc/init.dpowerline-exporter start
 sleep 2
 
 curl http://localhost:9859
