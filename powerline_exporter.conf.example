@@ -1,0 +1,24 @@
+exporter:
+  # Log verbose output to STDERR
+  verbose: true
+  # Metric prefix in response
+  prefix: powerline_exporter_
+  # Cache time in seconds to cache the prometheus output
+  cache: 10
+  # Hostname of server the exporter is running on
+  host: localhost
+  # Port the prometheus server runs on
+  port: 9859
+  # Faifa executable location
+  faifa: /usr/local/bin/faifa/faifa
+  # Ethernet interface to listen on
+  interface: eno1
+
+# MAC address to adaptor mapping
+stations:
+  BC:F2:AF:03:41:BC: Study
+  F4:06:8D:7E:05:92: Lounge
+  30:D3:2D:04:52:5B: Kitchen
+  F4:06:8D:17:58:5D: Bedroom1
+  30:D3:2D:43:B6:20: Bedroom2
+  30:D3:2D:04:4F:92: Bedroom3
