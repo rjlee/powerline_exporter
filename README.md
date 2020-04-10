@@ -37,7 +37,7 @@ git clone
 cp powerline.conf.example powerline.conf
 # Edit config as needed
 cp powerline-exporter.init /etc/init.d/powerline-exporter
-/etc/init.dpowerline-exporter start
+/etc/init.d/powerline-exporter start
 sleep 2
 
 curl http://localhost:9859
