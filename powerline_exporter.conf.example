@@ -10,7 +10,7 @@ exporter:
   # Port the prometheus server runs on
   port: 9859
   # Faifa executable location
-  faifa: /usr/local/bin/faifa/faifa
+  faifa: /usr/local/sbin/faifa
   # Ethernet interface to listen on
   interface: eno1
 
