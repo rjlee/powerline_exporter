@@ -8,7 +8,7 @@
 # Description:       <DESCRIPTION>
 ### END INIT INFO
 
-SCRIPT="/usr/local/bin/powerline_exporter -c /etc/powerline_exporter.conf"
+SCRIPT="/usr/local/bin/powerline_exporter/powerline_exporter -c /etc/powerline_exporter.conf"
 RUNAS=root
 
 PIDFILE=/var/run/powerline_exporter.pid
